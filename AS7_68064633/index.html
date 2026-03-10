@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<title>แบบฟอร์มลงทะเบียน</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- video background -->
+<video autoplay muted loop id="bgVideo">
+<source src="video/204006-923133925_small.mp4" type="video/mp4">
+</video>
+
+<div class="form-container">
+
+<h2>ณัฐขจร สุวรรณ์</h2>
+
+<label>ชื่อ-นามสกุล:</label>
+<input type="text" placeholder="กรุณากรอกชื่อ-นามสกุล">
+
+<label>อีเมล:</label>
+<input type="email" placeholder="example@domain.com">
+
+<label>รหัสผ่าน:</label>
+<input type="password">
+
+<label>เพศ:</label>
+
+<div class="gender-group">
+<label><input type="radio" name="gender"> ชาย</label>
+<label><input type="radio" name="gender"> หญิง</label>
+</div>
+
+<label>ตำแหน่ง:</label>
+<select>
+<option>Web Development</option>
+<option>Programmer</option>
+<option>Designer</option>
+<option>Frontend Developer</option>
+<option>Backend Developer</option>
+<option>Full Stack Developer</option>
+<option>Mobile App Developer</option>
+<option>UI/UX Designer</option>
+<option>Graphic Designer</option>
+<option>Data Analyst</option>
+<option>System Administrator</option>
+<option>Network Engineer</option>
+<option>Software Tester</option>
+</select>
+
+<div class="button-group">
+<button class="btn submit">ลงทะเบียน</button>
+<button class="btn reset">ล้างข้อมูล</button>
+</div>
+
+</div>
+
+<div class="video-control">
+<button class="play" onclick="playVideo()">Play</button>
+<button class="stop" onclick="stopVideo()">Stop</button>
+</div>
+
+<script src="script.js"></script>
+<nav class="navbar">
+    <div class="logo">Nutkajorn Suwan</div>
+    
+        <ul class="menu">
+            <li><a href="#">หน้าแรก</a></li>
+            <li><a href="#">ข้อมูลบริษัท</a></li>
+            <li><a href="#">บริการ</a></li>
+            <li><a href="#">เกี่ยวกับเรา</a></li>
+        </ul>
+    </nav>
+
+    </ul>
+</nav>
+
+</body>
+</html>
